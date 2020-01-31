@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "db087c91_fed44300",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-01-31T06:11:31Z",
+      "side": 1,
+      "message": "We shouldn\u0027t set status during creation",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 4
+      },
+      "revId": "da05c90203cf481b06e0d53ca41de039f84cf732",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "56c030d1_578e54cd",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-01-31T06:11:31Z",
+      "side": 1,
+      "message": "Why double logging?",
+      "range": {
+        "startLine": 137,
+        "startChar": 1,
+        "endLine": 137,
+        "endChar": 55
+      },
+      "revId": "da05c90203cf481b06e0d53ca41de039f84cf732",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    }
+  ]
+}
