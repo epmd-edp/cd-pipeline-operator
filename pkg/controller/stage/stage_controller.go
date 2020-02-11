@@ -127,6 +127,11 @@ func (r *ReconcileStage) createJenkinsJob(s edpv1alpha1.Stage) error {
 		return err
 	}
 
+	j, err := r.getFirstJenkinsInstance(s.Namespace)
+	if err != nil {
+		return err
+	}
+
 	jj := &jenv1alpha1.JenkinsJob{
 		TypeMeta: metav1.TypeMeta{
 			APIVersion: "v2.edp.epam.com/v1alpha1",
@@ -141,6 +146,13 @@ func (r *ReconcileStage) createJenkinsJob(s edpv1alpha1.Stage) error {
 					Kind:               consts.StageKind,
 					Name:               s.Name,
 					UID:                s.UID,
+					BlockOwnerDeletion: newTrue(),
+				},
+				{
+					APIVersion:         "v2.edp.epam.com/v1alpha1",
+					Kind:               consts.JenkinsKind,
+					Name:               j.Name,
+					UID:                j.UID,
 					BlockOwnerDeletion: newTrue(),
 				},
 			},
@@ -185,4 +197,28 @@ func (r ReconcileStage) tryToAddFinalizer(c *edpv1alpha1.Stage) error {
 		}
 	}
 	return nil
+}
+
+func (r ReconcileStage) getFirstJenkinsInstance(namespace string) (*jenv1alpha1.Jenkins, error) {
+	list := &jenv1alpha1.JenkinsList{}
+	if err := r.client.List(context.TODO(), &client.ListOptions{Namespace: namespace}, list); err != nil {
+		return nil, errors.Wrapf(err, "couldn't get Jenkins instances in namespace %v", namespace)
+	}
+	if len(list.Items) == 0 {
+		return nil, fmt.Errorf("at least one Jenkins instance should be accessible")
+	}
+	j := list.Items[0]
+	return r.getJenkinsInstance(j.Name, j.Namespace)
+}
+
+func (r ReconcileStage) getJenkinsInstance(name, namespace string) (*jenv1alpha1.Jenkins, error) {
+	nsn := types.NamespacedName{
+		Namespace: namespace,
+		Name:      name,
+	}
+	instance := &jenv1alpha1.Jenkins{}
+	if err := r.client.Get(context.TODO(), nsn, instance); err != nil {
+		return nil, errors.Wrapf(err, "failed to get jenkins instance by name %v", name)
+	}
+	return instance, nil
 }

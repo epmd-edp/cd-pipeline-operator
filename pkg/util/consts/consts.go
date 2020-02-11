@@ -1,7 +1,8 @@
 package consts
 
 const (
-	StageKind = "Stage"
+	StageKind   = "Stage"
+	JenkinsKind = "Jenkins"
 
 	InProgressStatus = "in progress"
 	InitStatus       = "initialized"
