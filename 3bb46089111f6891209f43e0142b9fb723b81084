@@ -1,0 +1,7 @@
+Code-Review+2: Anton Tarianyk <anton_tarianyk@epam.com>
+Verified+1: CI Jenkins
+Submitted-by: Anton Tarianyk <anton_tarianyk@epam.com>
+Submitted-at: Fri, 14 Feb 2020 12:59:39 +0000
+Reviewed-on: https://gerrit-oc-green-edp-cicd.delivery.aws.main.edp.projects.epam.com/c/cd-pipeline-operator/+/254
+Project: cd-pipeline-operator
+Branch: refs/heads/master
