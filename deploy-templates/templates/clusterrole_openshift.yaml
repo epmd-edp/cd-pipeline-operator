@@ -1,0 +1,35 @@
+{{- if eq .Values.platform "openshift" -}}
+apiVersion: authorization.openshift.io/v1
+kind: ClusterRole
+metadata:
+  annotations:
+    openshift.io/description: Role for cd-pipeline-operator-edp service account
+    openshift.io/reconcile-protect: "false"
+  name: {{ .Values.name }}-edp-clusterrole-{{ .Values.namespace }}
+rules:
+  - apiGroups:
+      - '*'
+    attributeRestrictions: null
+    resources:
+      - securitycontextconstraints
+    verbs:
+      - patch
+      - update
+      - delete
+      - get
+      - list
+      - create
+  - apiGroups:
+      - '*'
+    attributeRestrictions: null
+    resources:
+      - cdpipelines
+      - cdpipelines/finalizers
+      - stages
+      - stages/finalizers
+      - stages/status
+      - jenkinsfolders
+      - jenkinsfolders/finalizers
+    verbs:
+      - '*'
+{{ end }}
