@@ -1,0 +1,12 @@
+name: cd-pipeline-operator
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: ""
+database:
+  required: false
+ingress:
+  required: false
+image:
+  name: cd-pipeline-operator-master
+  version: latest
