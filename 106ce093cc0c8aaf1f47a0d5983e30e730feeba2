@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a142c253_3fd50d40",
+        "filename": "deploy-templates/templates/clusterrole_openshift.yaml",
+        "patchSetId": 10
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2020-03-05T09:34:49Z",
+      "side": 1,
+      "message": "I don\u0027t see scc operations in operator source code. I suppose we can remove this",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 12
+      },
+      "revId": "106ce093cc0c8aaf1f47a0d5983e30e730feeba2",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d0e961f_b902bb0a",
+        "filename": "deploy-templates/templates/rolebinding_kubernetes.yaml",
+        "patchSetId": 10
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2020-03-05T09:34:49Z",
+      "side": 1,
+      "message": "This file should be removed since we decided to add kubernetes support later",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 11
+      },
+      "revId": "106ce093cc0c8aaf1f47a0d5983e30e730feeba2",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
+    }
+  ]
+}
