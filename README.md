@@ -29,5 +29,6 @@ helm install cd-pipeline-operator --namespace <edp_cicd_project> --set name=cd-p
 
 * Check the <edp_cicd_project> namespace that should contain Deployment with your operator in a running status
 
+
 ### Local Development
 In order to develop the operator, first set up a local environment. For details, please refer to the [Local Development](documentation/local-development.md) page.
