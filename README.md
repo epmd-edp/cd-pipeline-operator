@@ -19,6 +19,7 @@ _**NOTE:** It is highly recommended to use the latest released version._
 helm install cd-pipeline-operator --namespace <edp_cicd_project> --set name=cd-pipeline-operator --set namespace=<edp_cicd_project> --set platform=<platform_type> --set image.name=epamedp/cd-pipeline-operator --set image.version=<operator_version> --set dnsWildcard=<dns_wildcard> deploy-templates
 ```
 
+
 - _<edp_cicd_project> - a namespace or a project name (in case of OpenShift) that is created by one of the instructions: [edp-install-openshift](https://github.com/epmd-edp/edp-install/blob/master/documentation/openshift_install_edp.md#install-edp) or [edp-install-kubernetes](https://github.com/epmd-edp/edp-install/blob/master/documentation/kubernetes_install_edp.md#install-edp);_ 
 
 - _<platform_type> - a platform type that can be "kubernetes" or "openshift";_
@@ -28,6 +29,7 @@ helm install cd-pipeline-operator --namespace <edp_cicd_project> --set name=cd-p
 - _<dns_wildcard> - a cluster DNS wildcard name_.
 
 * Check the <edp_cicd_project> namespace that should contain Deployment with your operator in a running status
+
 
 ### Local Development
 In order to develop the operator, first set up a local environment. For details, please refer to the [Local Development](documentation/local-development.md) page.
