@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "4a60f068_fa6e31fe",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-28T13:45:19Z",
+      "side": 1,
+      "message": "You`re right, thank you.",
+      "parentUuid": "82ec7494_a52e5fed",
+      "range": {
+        "startLine": 155,
+        "startChar": 26,
+        "endLine": 155,
+        "endChar": 28
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d2bdaca_af4bc9ff",
         "filename": "pkg/controller/stage/stage_controller.go",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "a9f17932_a4084dc9",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-28T13:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d2bdaca_af4bc9ff",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 34
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa7c5820_7bc1593a",
         "filename": "pkg/controller/stage/stage_controller.go",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2020-05-28T13:20:46Z",
       "side": 1,
       "message": "Was it hardcoded earlier?",
+      "range": {
+        "startLine": 163,
+        "startChar": 27,
+        "endLine": 163,
+        "endChar": 31
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "785361c3_e342144b",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-28T13:45:19Z",
+      "side": 1,
+      "message": "Yes, it was.",
+      "parentUuid": "fa7c5820_7bc1593a",
       "range": {
         "startLine": 163,
         "startChar": 27,
@@ -91,6 +163,30 @@
       "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
       "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f52cd3fb_ffa588c4",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-28T13:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ee88fbd_950c0fe5",
+      "range": {
+        "startLine": 208,
+        "startChar": 2,
+        "endLine": 209,
+        "endChar": 50
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
     }
   ]
 }
