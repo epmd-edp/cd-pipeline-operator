@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82ec7494_a52e5fed",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-28T13:20:46Z",
+      "side": 1,
+      "message": "Do we need comma here?",
+      "range": {
+        "startLine": 155,
+        "startChar": 26,
+        "endLine": 155,
+        "endChar": 28
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d2bdaca_af4bc9ff",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-28T13:20:46Z",
+      "side": 1,
+      "message": "Why do we need this?",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 34
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fa7c5820_7bc1593a",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-28T13:20:46Z",
+      "side": 1,
+      "message": "Was it hardcoded earlier?",
+      "range": {
+        "startLine": 163,
+        "startChar": 27,
+        "endLine": 163,
+        "endChar": 31
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ee88fbd_950c0fe5",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-28T13:20:46Z",
+      "side": 1,
+      "message": "Does it make sense to proceed if can\u0027t get library?",
+      "range": {
+        "startLine": 208,
+        "startChar": 2,
+        "endLine": 209,
+        "endChar": 50
+      },
+      "revId": "847d3d43b1cdb83619dbe0b8010166c4b7077782",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    }
+  ]
+}
