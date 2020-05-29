@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "38168d53_6e4a050b",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-29T11:41:04Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 212,
+        "endChar": 30
+      },
+      "revId": "3245af569e303e0785d61c16a124d402aa680b2a",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c1d2c0bd_eb52a953",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-29T11:41:04Z",
+      "side": 1,
+      "message": "return map itself without assigning variable",
+      "range": {
+        "startLine": 225,
+        "startChar": 1,
+        "endLine": 225,
+        "endChar": 9
+      },
+      "revId": "3245af569e303e0785d61c16a124d402aa680b2a",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d1419f3c_7c761a35",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2020-05-29T11:41:04Z",
+      "side": 1,
+      "message": "add type",
+      "range": {
+        "startLine": 235,
+        "startChar": 41,
+        "endLine": 235,
+        "endChar": 45
+      },
+      "revId": "3245af569e303e0785d61c16a124d402aa680b2a",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    }
+  ]
+}
