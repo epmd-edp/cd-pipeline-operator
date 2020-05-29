@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "83f1ab0a_382fe514",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-29T13:06:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38168d53_6e4a050b",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 212,
+        "endChar": 30
+      },
+      "revId": "3245af569e303e0785d61c16a124d402aa680b2a",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c1d2c0bd_eb52a953",
         "filename": "pkg/controller/stage/stage_controller.go",
         "patchSetId": 4
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "ee92c54f_1591ab8c",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-29T13:06:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1d2c0bd_eb52a953",
+      "range": {
+        "startLine": 225,
+        "startChar": 1,
+        "endLine": 225,
+        "endChar": 9
+      },
+      "revId": "3245af569e303e0785d61c16a124d402aa680b2a",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d1419f3c_7c761a35",
         "filename": "pkg/controller/stage/stage_controller.go",
         "patchSetId": 4
@@ -59,6 +107,30 @@
       "writtenOn": "2020-05-29T11:41:04Z",
       "side": 1,
       "message": "add type",
+      "range": {
+        "startLine": 235,
+        "startChar": 41,
+        "endLine": 235,
+        "endChar": 45
+      },
+      "revId": "3245af569e303e0785d61c16a124d402aa680b2a",
+      "serverId": "0350cb7f-c1b1-4710-a647-f6632dbafb3c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6664078_1e352787",
+        "filename": "pkg/controller/stage/stage_controller.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1000027
+      },
+      "writtenOn": "2020-05-29T13:06:02Z",
+      "side": 1,
+      "message": "https://gerrit-oc-green-edp-cicd.delivery.aws.main.edp.projects.epam.com/c/reconciler/+/2400/7/pkg/repository/job-provisioning/job_provisioning.go#13\n\nAnton Tarianyk recommends using the declaration method(name,scope,tenant string)",
+      "parentUuid": "d1419f3c_7c761a35",
       "range": {
         "startLine": 235,
         "startChar": 41,
