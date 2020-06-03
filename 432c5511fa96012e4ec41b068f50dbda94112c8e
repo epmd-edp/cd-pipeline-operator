@@ -1,0 +1,7 @@
+Verified+1: CI Jenkins
+Code-Review+2: Alexander Morozov <alexander_morozov@epam.com>
+Submitted-by: Alexander Morozov <alexander_morozov@epam.com>
+Submitted-at: Wed, 03 Jun 2020 14:48:59 +0000
+Reviewed-on: https://gerrit-oc-green-edp-cicd.delivery.aws.main.edp.projects.epam.com/c/cd-pipeline-operator/+/2770
+Project: cd-pipeline-operator
+Branch: refs/heads/release-2.2
